@@ -13,6 +13,10 @@ using AdaniCall.Resources;
 using AdaniCall.Business.BusinessFacade;
 using AdaniCall.Utility.Common;
 using AdaniCall.Entity.ViewModel;
+using SKM.V3;
+using SKM.V3.Methods;
+using SKM.V3.Models;
+using static System.Collections.Specialized.BitVector32;
 
 namespace AdaniCall.Controllers
 {
@@ -25,17 +29,26 @@ namespace AdaniCall.Controllers
         private ISession _session => _httpContextAccessor.HttpContext.Session;
         private IMemoryCache _cache;
 
+        private readonly string _licenseKey;
+        private readonly string _RSAPubKey;
+        private readonly string _auth;
+        private readonly string _ProductId;
+
         Users objUserEntity = new Users();
         JsonMessage _jsonMessage;
         LoginVM _loginVM = null;
         Helper _helper;
 
-        public UserController(IHttpContextAccessor httpContextAccessor, IMemoryCache cache)
+        public UserController(IHttpContextAccessor httpContextAccessor, IMemoryCache cache, IConfiguration configuration)
         {
             _httpContextAccessor = httpContextAccessor;
             _cache = cache;
             _helper = new Helper(_httpContextAccessor);
             _loginVM = _helper.GetSession();
+            _licenseKey = configuration["licenseKey"].ToString();
+            _RSAPubKey = configuration["RSAPubKey"].ToString();
+            _auth = configuration["auth"].ToString();
+            _ProductId = configuration["ProductId"].ToString();
             if (_httpContextAccessor != null)
                 _loginVM = _helper.GetSession();
         }
@@ -67,11 +80,12 @@ namespace AdaniCall.Controllers
             }
             return UID;
         }
-
         public IActionResult Login()
         {
+
             _helper = new Helper(_httpContextAccessor);
             _loginVM = _helper.GetSession();
+
             if (_loginVM != null && _loginVM.Id > 0)
                 return RedirectToAction(AdaniCallConstants.DefaultView, AdaniCallConstants.DefaultController);
 
@@ -85,7 +99,6 @@ namespace AdaniCall.Controllers
         }
 
 
-
         public ActionResult Logout()
         {
             try
@@ -96,8 +109,6 @@ namespace AdaniCall.Controllers
                 Int64 UserID = 0;
                 if (_session.GetString(KeyEnums.SessionKeys.UserId.ToString()) != null)
                     UserID = Convert.ToInt64(_session.GetString(KeyEnums.SessionKeys.UserId.ToString()));
-                //if (HttpContext.Session[KeyEnums.SessionKeys.UserId.ToString()] != null)
-                //    UserID = Convert.ToInt64(HttpContext.Session[KeyEnums.SessionKeys.UserId.ToString()]);
 
                 if (UserID > 0)
                 {
@@ -107,23 +118,23 @@ namespace AdaniCall.Controllers
 
                 UserLogOut();
 
-                string StrUrl = string.Empty;
-                StrUrl = AdaniCallConstants.AdaniCallDomain + "/User/Login";
-                // StrUrl = URLDetails.GetSiteRootUrl().TrimEnd('/');
-                return Redirect(StrUrl);
+                //string StrUrl = string.Empty;
+                //StrUrl = URLDetails.GetSiteRootUrl().TrimEnd('/');
+                //return Redirect(StrUrl);
+                return RedirectToAction("Login", "User");
             }
             catch (Exception ex)
             {
                 Log.WriteLog(_module, "Logout()", ex.Source, ex.Message, ex);
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Login", "User");
             }
         }
-
         private void UserLogOut()
         {
             try
             {
                 ClearCache();//Delete the user details from cache.
+                             //Session.Abandon();
                 _httpContextAccessor.HttpContext.Session.Clear();
 
                 if (_httpContextAccessor.HttpContext.Request.Cookies["LoginData"] != null)
@@ -134,19 +145,19 @@ namespace AdaniCall.Controllers
                 {
                     Response.Cookies.Delete("UserLanguage");
                 }
-
             }
             catch (Exception ex)
             {
                 Log.WriteLog(_module, "UserLogOut()", ex.Source, ex.Message, ex);
             }
+            // FormsAuthentication.SignOut(); //Delete the authentication ticket and sign out.
 
-            //FormsAuthentication.SignOut(); //Delete the authentication ticket and sign out.
+            // CookieStore.RemoveCookie("AGCXWebLoginUser");
         }
 
         private void ClearCache()
         {
-           
+
             _cache.Remove("_userId" + _session.Id + "_" + "true");
             _cache.Remove("AcceptToken_" + _session.Id);
             _cache.Remove("CallToken_" + _session.Id);
@@ -155,7 +166,7 @@ namespace AdaniCall.Controllers
         private string GetRedirectUrl()
         {
             if (objUserEntity.RoleId == (byte)RoleEnums.Role.Kiosk)
-                    return GetUrl("Call", "Home");
+                return GetUrl("Call", "Home");
             else
             if (objUserEntity.RoleId == (byte)RoleEnums.Role.Agent)
                 return GetUrl("Accept", "Home");
@@ -163,11 +174,26 @@ namespace AdaniCall.Controllers
                 return GetUrl(AdaniCallConstants.DefaultView, AdaniCallConstants.DefaultController);
         }
 
+        public void SetCookie(string key, string value, int? expireTime)
+        {
+            CookieOptions option = new CookieOptions();
+            if (expireTime > 0)
+                option.Expires = DateTime.Now.AddDays(double.Parse(expireTime.ToString()));
+            else
+                option.Expires = DateTime.Now.AddMilliseconds(10);
+            Response.Cookies.Append(key, value, option);
+        }
+
         [HttpPost]
         public JsonResult Login(string username, string password, string queryString, bool isRemember, bool autologin)
         {
             try
             {
+
+                //HttpCookie isRemembercookie = new HttpCookie("isRemembercookie");
+                //HttpCookie cookie = new HttpCookie("LoginData");
+                SetCookie("RememberMe", isRemember.ToString().ToLower(), Convert.ToInt32(AdaniCallConstants.LoginCookie));
+
                 LoginVM loginVM = new LoginVM();
 
                 if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
@@ -183,33 +209,54 @@ namespace AdaniCall.Controllers
                     {
                         if (_jsonMessage.IsSuccess)
                         {
+                            if (isRemember)
+                            {
+                                //cookie.Values.Add("UserName", username);
+                                //cookie.Values.Add("ReturnURL", _jsonMessage.ReturnUrl);
+                                //cookie.HttpOnly = true;
+                                //int cookieDays = Convert.ToInt32(AdaniCallConstants.LoginCookie);
+                                //cookie.Expires = DateTime.Now.AddDays(cookieDays);
+                                //Response.Cookies.Add(cookie);
+                                SetCookie("UserName", username, Convert.ToInt32(AdaniCallConstants.LoginCookie));
+                                SetCookie("ReturnURL", _jsonMessage.ReturnUrl, Convert.ToInt32(AdaniCallConstants.LoginCookie));
+                            }
                             objUserEntity = (Users)_jsonMessage.Data;
+                            if (isRemember)
+                            {
+                                SetCookie("UserRoleID", objUserEntity.RoleId.ToString(), Convert.ToInt32(AdaniCallConstants.LoginCookie));
+                            }
+
                             if (objUserEntity != null)
                             {
                                 _helper.SetSession(objUserEntity);
-                                if (objUserEntity.ID > 0)
-                                {
-                                    UsersBusinessFacade objUsers = new UsersBusinessFacade();
-                                    objUsers.ChangeAvailabilityStatus(objUserEntity.ID, "1");
-                                    if (objUserEntity.RoleId == (byte)RoleEnums.Role.Kiosk || objUserEntity.RoleId == (byte)RoleEnums.Role.Agent)
-                                        SetEncryptedCookieKey("AGCXWebLoginUser", username, TimeSpan.MaxValue);
-                                }
+                                //if (objUserEntity.ID > 0)
+                                //{
+                                //    UsersBusinessFacade objUsers = new UsersBusinessFacade();
+                                //    objUsers.ChangeAvailabilityStatus(objUserEntity.ID, "1");
+                                //    if (objUserEntity.RoleId == (byte)RoleEnums.Role.Kiosk || objUserEntity.RoleId == (byte)RoleEnums.Role.Agent)
+                                //        CookieStore.SetEncryptedCookieKey("AGCXWebLoginUser", username, TimeSpan.MaxValue);
+                                //}
                             }
+
                             _helper.SetUserLanguage(objUserEntity.LanguageId);
-                            InsertAccessMember(objUserEntity, GetAccessMember(), "Login");
-                           // CommonData _CommonData = new CommonData(_cache);
+                            InsertAccessMember(objUserEntity.ID, "Login", getAccessMember());
+                            //CommonData _CommonData = new CommonData();
 
-                            if (objUserEntity.RoleId == (byte)RoleEnums.Role.Kiosk)
-                               _jsonMessage.ReturnUrl = AdaniCallConstants.AdaniCallDomain+ "/Home/Call";
-                            else
-                            if (objUserEntity.RoleId == (byte)RoleEnums.Role.Agent)
+                            //if (objUserEntity.RoleId == (byte)RoleEnums.Role.Kiosk)
+                            //    _jsonMessage.ReturnUrl = URLDetails.GetSiteRootUrl().TrimEnd('/') + "/Home/Call";
+                            //else if (objUserEntity.RoleId == (byte)RoleEnums.Role.Agent)
+                            //    _jsonMessage.ReturnUrl = URLDetails.GetSiteRootUrl().TrimEnd('/') + "/Home/Accept";
+                            //else 
+                            if (objUserEntity.RoleId == (byte)RoleEnums.Role.SuperAdmin || objUserEntity.RoleId == (byte)RoleEnums.Role.Admin || objUserEntity.RoleId == (byte)RoleEnums.Role.LocationAdmin)
+                                _jsonMessage.ReturnUrl = AdaniCallConstants.AdaniCallDomain + "/Transactions/List";
+                            else if (objUserEntity.RoleId == (byte)RoleEnums.Role.Agent)
                                 _jsonMessage.ReturnUrl = AdaniCallConstants.AdaniCallDomain + "/Home/Accept";
-                            else 
-                            if (objUserEntity.RoleId == (byte)RoleEnums.Role.SuperAdmin || objUserEntity.RoleId == (byte)RoleEnums.Role.Admin)
-                               _jsonMessage.ReturnUrl = AdaniCallConstants.AdaniCallDomain + "/Transactions/List";
-
                             else
                                 _jsonMessage.ReturnUrl = AdaniCallConstants.AdaniCallDomain + "/" + AdaniCallConstants.DefaultController + "/" + AdaniCallConstants.DefaultView + "";
+                        }
+                        else
+                        {
+                            _jsonMessage = new JsonMessage(false, Resource.lbl_error, Resource.lbl_msg_invalidEmailAddressPassword, KeyEnums.JsonMessageType.ERROR);
                         }
                     }
                 }
@@ -221,7 +268,8 @@ namespace AdaniCall.Controllers
             }
             return Json(_jsonMessage);
         }
-        public AccessMember GetAccessMember()
+
+        public AccessMember getAccessMember()
         {
             AccessMember objAM = new AccessMember();
             try
@@ -245,185 +293,152 @@ namespace AdaniCall.Controllers
             }
             catch (Exception ex)
             {
-                Log.WriteLog(_module, "GetAccessMember()", ex.Source, ex.Message, ex);
+                Log.WriteLog(_module, "getAccessMember()", ex.Source, ex.Message, ex);
             }
             return objAM;
         }
-        [HttpPost]
-        public JsonResult InsertAM(string UniqueCallID, string CallStatus)
-        {
-            Int64 UserID = 0;
-            string _role = "";
-            Users objUsers = new Users();
-            AccessMember objAM = new AccessMember();
-            Helper _helper = new Helper(_httpContextAccessor);
-            objAM = GetAccessMember();
 
-            try
-            {
-                if (_session.GetString(KeyEnums.SessionKeys.UserId.ToString()) != null)
-                {
-                    UserID = Convert.ToInt64(_session.GetString(KeyEnums.SessionKeys.UserId.ToString()));
-                    if (_session.GetString(KeyEnums.SessionKeys.UserRole.ToString()) != null)
-                    {
-                        _role = _session.GetString(KeyEnums.SessionKeys.UserRole.ToString());
-                        objAM.UniqueCallID = UniqueCallID;
-                        if (_role == Convert.ToString((byte)RoleEnums.Role.Agent))
-                        {
-                            objAM.CallerID = "";
-                        }
-                        else if (_role == Convert.ToString((byte)RoleEnums.Role.Kiosk))
-                        {
-                            objAM.CallerID = "";
-                            if (_session.GetString(KeyEnums.SessionKeys.KioskID.ToString()) != null && _session.GetString(KeyEnums.SessionKeys.KioskID.ToString()).ToString() != "")
-                                objAM.KioskID = Convert.ToInt64(_session.GetString(KeyEnums.SessionKeys.KioskID.ToString()));
-                        }
-                    }
-                }
-
-                if (UserID > 0)
-                {
-                    objUsers.ID = UserID;
-                    if (CallStatus.ToLower() == "connected")
-                    {
-                        string AMID = InsertAccessMember(objUsers, objAM, "Call");
-                        return Json(AMID);
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                Log.WriteLog(_module, "InsertAM(UniqueCallID:" + UniqueCallID + ",UserID:" + UserID + ",CallStatus=" + CallStatus + ")", ex.Source, ex.Message);
-            }
-            return Json("");
-        }
-        private string InsertAccessMember(Users objUsers, AccessMember objAccessMember, string ClickedBy)
+        public decimal InsertAccessMember(Int64 ID, string clickedby, AccessMember objAccessMember)
         {
             try
             {
-                objAccessMember.UserID = objUsers.ID;
-                objAccessMember.ClickedBy = ClickedBy;
+                AccessMember objAM = new AccessMember();
+                objAM.UserID = Convert.ToInt64(ID);
+                objAM.Url = objAccessMember.Url;
+                objAM.ReferrerURL = objAccessMember.ReferrerURL;
+                objAM.port = objAccessMember.port;
+                objAM.Host = objAccessMember.Host;
+                objAM.REMOTE_ADDR_IP = objAccessMember.REMOTE_ADDR_IP;
+                objAM.Useragent = objAccessMember.Useragent;
+                objAM.BrowserType = objAccessMember.BrowserType;
+                objAM.BrowserVersion = objAccessMember.BrowserType;
+                objAM.Platform = objAccessMember.Platform;
+                if (!string.IsNullOrWhiteSpace(objAccessMember.ClickedBy))
+                    objAM.ClickedBy = objAccessMember.ClickedBy;
+                else
+                    objAM.ClickedBy = clickedby;
+                objAM.DeviceName = objAccessMember.DeviceName;
+                objAM.DeviceType = objAccessMember.DeviceType;
+                objAM.OperatingSystem = objAccessMember.OperatingSystem;
+                objAM.DeviceModel = objAccessMember.DeviceModel;
+                objAM.Build = objAccessMember.Build;
+                objAM.Version = objAccessMember.Version;
+
                 AccessMemberBusinessFacade objAccessMemberBusinessFacade = new AccessMemberBusinessFacade();
-                var AMID = objAccessMemberBusinessFacade.Save(objAccessMember);
-                return AMID.ToString();
+                objAccessMemberBusinessFacade.Save(objAM);
+                return objAM.ID;
             }
             catch (Exception ex)
             {
-                Log.WriteLog(_module, "InsertAccessMember(UserID: " + objUsers.ID + ", clickedby:" + ClickedBy + ")", ex.Source, ex.Message);
+                Log.WriteLog(_module, "InsertAccessMember(ID: " + ID + ", clickedby: " + clickedby + ")", ex.Source, ex.Message);
             }
-            return "0";
+            return 0;
         }
-        [HttpPost]
-        public JsonResult InsertAMPing(string pingFrom = "")
+        public JsonMessage LicenseKeys(string licenseKey, string RSAPubKey, string auth)
         {
-            Int64 UserID = 0;
-            string _role = "";
-            Users objUsers = new Users();
-            AccessMember objAM = new AccessMember();
-            Helper _helper = new Helper(_httpContextAccessor);
-            objAM = GetAccessMember();
-
-            try
+            //var licenseKey = "DRBYF-PRVMW-UATHM-CUGVH";
+            //var RSAPubKey = "<RSAKeyValue><Modulus>wYdMz6oMaEUf/zjTnZvquNdlbKR2fXh/xcsGlqHFwN4YWJrEWPfiThxpBAHRIWdjWFMgN/aKPcvwlO14JIrO093fckLZ3WA84/cfOStnwS8pbZPjkMi+1GpK20R5OwVirtDYwZYShxCD6I7iYtaViBi4BWIaKJqC1FcjS+UnfyDNOAHDDFMnvGjjNZeDV1GCwfsU8PQ3m6ljAOlpYQxU/fMVh51t/o0bm3RiJhCfe7OSdsQ3Y/Pp6aKv24a4gRciINw4HIKTfdUhOhMOK1EAlo8AkymVS71i8JFhzAyRksxq7pXiJmqUcNRQJZd6Wtlg81WaOVp3RIx9u2uVO79jHQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue>";
+            string resultMessage = "";
+            bool license = false;
+            //var auth = "WyIzOTA0MzE3NiIsIjZlSGxlRDVKd3pNV0N0SnZ0UmEwNTQ5NTNBaHlHRXdFZWJSeEpoVTciXQ==";
+            var result = Key.Activate(token: auth, parameters: new ActivateModel()
             {
-                if (_session.GetString(KeyEnums.SessionKeys.UserId.ToString()) != null)
+                Key = licenseKey,
+                ProductId = 18775,
+                Sign = true,
+                MachineCode = Helpers.GetMachineCodePI(v: 2)
+            });
+
+            if (result == null || result.Result == ResultType.Error ||
+                !result.LicenseKey.HasValidSignature(RSAPubKey).IsValid())
+            {
+                resultMessage = "The license does not work.";
+                _jsonMessage = new JsonMessage(false, Resource.lbl_error, resultMessage, KeyEnums.JsonMessageType.FAILURE, "/User/Login");
+                license = false;
+            }
+            else
+            {
+                if (Helpers.IsOnRightMachinePI(result.LicenseKey, v: 2))
                 {
-                    UserID = Convert.ToInt64(_session.GetString(KeyEnums.SessionKeys.UserId.ToString()));
-                    if (_session.GetString(KeyEnums.SessionKeys.UserRole.ToString()) != null)
-                    {
-                        _role = _session.GetString(KeyEnums.SessionKeys.UserRole.ToString()).ToString();
-                        objAM.UniqueCallID = "";
-                        if (_role == Convert.ToString((byte)RoleEnums.Role.Agent))
-                        {
-                            objAM.CallerID = "";
-                        }
-                        else if (_role == Convert.ToString((byte)RoleEnums.Role.Kiosk))
-                        {
-                            objAM.CallerID = "";
-                            if (_session.GetString(KeyEnums.SessionKeys.KioskID.ToString()) != null && _session.GetString(KeyEnums.SessionKeys.KioskID.ToString()).ToString() != "")
-                                objAM.KioskID = Convert.ToInt64(_session.GetString(KeyEnums.SessionKeys.KioskID.ToString()));
-                        }
-                    }
-                }
-                string strPing = "Ping";
-                if (!string.IsNullOrWhiteSpace(pingFrom))
-                    strPing = pingFrom;
-                if (UserID > 0 && _role == Convert.ToString((byte)RoleEnums.Role.Kiosk))
-                {
-                    objUsers.ID = UserID;
-                    string AMID = InsertAccessMember(objUsers, objAM, strPing);
-                    return Json(AMID);
+                    resultMessage = "On the Correct Machine";
+                    _jsonMessage = new JsonMessage(true, Resource.lbl_Cap_success, resultMessage, KeyEnums.JsonMessageType.SUCCESS, "true");
+                    license = true;
                 }
                 else
                 {
-                    string AMID = InsertAccessMember(objUsers, objAM, strPing);
-                    return Json(AMID);
+                    resultMessage = "Not on the Correct Machine";
+                    _jsonMessage = new JsonMessage(false, Resource.lbl_error, resultMessage, KeyEnums.JsonMessageType.FAILURE, "/User/Login");
+                    license = false;
                 }
             }
-            catch (Exception ex)
-            {
-                Log.WriteLog(_module, "InsertAMPing(pingFrom:" + pingFrom + ")", ex.Source, ex.Message);
-            }
-            return Json("");
+            return _jsonMessage;
         }
-      
         public JsonMessage IsLoginValid(string username, string password, string LoginMode = "")
         {
             Users objUserEntity = new Users();
-            try
+            // string resultMessage = "";
+            // bool license = false;
+            _jsonMessage = LicenseKeys(_licenseKey, _RSAPubKey, _auth);
+            if (_jsonMessage.IsSuccess)
             {
-                if (string.IsNullOrWhiteSpace(username))
-                    _jsonMessage = new JsonMessage(false, Resource.lbl_msg_invalidEmailAddress, Resource.lbl_msg_invalidEmailAddress, KeyEnums.JsonMessageType.DANGER);
-                else if (string.IsNullOrWhiteSpace(password) && LoginMode == "")
-                    _jsonMessage = new JsonMessage(false, Resource.lbl_msg_invalidPassowrd, Resource.lbl_msg_invalidPassowrd, KeyEnums.JsonMessageType.DANGER);
-                else
+                try
                 {
-                    string[] Fieldsname = new string[2];
-                    string[] Values = new string[2];
-                    Fieldsname[0] = username;
-                    Fieldsname[1] = password;
-                    Values[0] = username;
-                    Values[1] = password;
-                    string StrUrl = URLDetails.GetSiteRootUrl().TrimEnd('/');
-                    UsersBusinessFacade objUsersBusinessFacade = new UsersBusinessFacade();
-                    objUserEntity = objUsersBusinessFacade.Authenticate(username, password, LoginMode);
-
-                    if (objUserEntity != null)
+                    if (string.IsNullOrWhiteSpace(username))
+                        _jsonMessage = new JsonMessage(false, Resource.lbl_msg_invalidEmailAddress, Resource.lbl_msg_invalidEmailAddress, KeyEnums.JsonMessageType.DANGER);
+                    else if (string.IsNullOrWhiteSpace(password) && LoginMode == "")
+                        _jsonMessage = new JsonMessage(false, Resource.lbl_msg_invalidPassowrd, Resource.lbl_msg_invalidPassowrd, KeyEnums.JsonMessageType.DANGER);
+                    else
                     {
-                        if (objUserEntity.StatusId == (byte)StateEnums.Statuses.Active || objUserEntity.StatusId == (byte)StateEnums.Statuses.Pending)
+                        string[] Fieldsname = new string[2];
+                        string[] Values = new string[2];
+                        Fieldsname[0] = username;
+                        Fieldsname[1] = password;
+                        Values[0] = username;
+                        Values[1] = password;
+                        string StrUrl = URLDetails.GetSiteRootUrl().TrimEnd('/');
+                        UsersBusinessFacade objUsersBusinessFacade = new UsersBusinessFacade();
+                        objUserEntity = objUsersBusinessFacade.Authenticate(username, password, LoginMode);
+
+                        if (objUserEntity != null)
                         {
-                            _jsonMessage = new JsonMessage(true, Resource.lbl_Cap_success, Resource.lbl_msg_dataSavedSuccessfully, KeyEnums.JsonMessageType.SUCCESS, StrUrl, "true", objUserEntity);
-                        }
-                        else if (objUserEntity.StatusId == (byte)StateEnums.Statuses.InActive)
-                        {
-                            _jsonMessage = new JsonMessage(false, Resource.lbl_error, Resource.lbl_accountDisabled, KeyEnums.JsonMessageType.FAILURE, "/User/Login");
-                        }
-                        else if (objUserEntity.StatusId == (byte)StateEnums.Statuses.Deleted)
-                        {
-                            _jsonMessage = new JsonMessage(false, Resource.lbl_error, Resource.lbl_accountDeleted, KeyEnums.JsonMessageType.FAILURE, "/User/Login");
-                        }
-                        else if (objUserEntity.StatusId == (byte)StateEnums.Statuses.Active && objUserEntity.IsEmailVerified == true)
-                        {
-                            _jsonMessage = new JsonMessage(true, Resource.lbl_Cap_success, Resource.lbl_msg_dataSavedSuccessfully, KeyEnums.JsonMessageType.SUCCESS, StrUrl, "true", objUserEntity);
+                            if (objUserEntity.StatusId == (byte)StateEnums.Statuses.Active || objUserEntity.StatusId == (byte)StateEnums.Statuses.Pending)
+                            {
+                                _jsonMessage = new JsonMessage(true, Resource.lbl_Cap_success, Resource.lbl_msg_dataSavedSuccessfully, KeyEnums.JsonMessageType.SUCCESS, StrUrl, "true", objUserEntity);
+                            }
+                            else if (objUserEntity.StatusId == (byte)StateEnums.Statuses.InActive)
+                            {
+                                _jsonMessage = new JsonMessage(false, Resource.lbl_error, Resource.lbl_accountDisabled, KeyEnums.JsonMessageType.FAILURE, "/User/Login");
+                            }
+                            else if (objUserEntity.StatusId == (byte)StateEnums.Statuses.Deleted)
+                            {
+                                _jsonMessage = new JsonMessage(false, Resource.lbl_error, Resource.lbl_accountDeleted, KeyEnums.JsonMessageType.FAILURE, "/User/Login");
+                            }
+                            else if (objUserEntity.StatusId == (byte)StateEnums.Statuses.Active && objUserEntity.IsEmailVerified == true)
+                            {
+                                _jsonMessage = new JsonMessage(true, Resource.lbl_Cap_success, Resource.lbl_msg_dataSavedSuccessfully, KeyEnums.JsonMessageType.SUCCESS, StrUrl, "true", objUserEntity);
+                            }
+                            else
+                            {
+                                _jsonMessage = new JsonMessage(false, Resource.lbl_error, Resource.lbl_msg_loginFailed, KeyEnums.JsonMessageType.ERROR);
+                            }
                         }
                         else
-                        {
-                            _jsonMessage = new JsonMessage(false, Resource.lbl_error, Resource.lbl_msg_loginFailed, KeyEnums.JsonMessageType.ERROR);
-                        }
+                            _jsonMessage = new JsonMessage(false, Resource.lbl_error, Resource.lbl_msg_invalidEmailAddressPassword, KeyEnums.JsonMessageType.ERROR);
                     }
-                    else
-                        _jsonMessage = new JsonMessage(false, Resource.lbl_error, Resource.lbl_msg_invalidEmailAddressPassword, KeyEnums.JsonMessageType.ERROR);
-                }
-            }
-            catch (Exception ex)
-            {
-                _jsonMessage = new JsonMessage(false, Resource.lbl_msg_internalServerErrorOccurred, Resource.lbl_msg_internalServerErrorOccurred, KeyEnums.JsonMessageType.ERROR, ex.Message);
-                Log.WriteLog(_module, "IsLoginValid(username=" + username + ", password=" + password + ")", ex.Source, ex.Message, ex);
-            }
 
+                }
+
+                catch (Exception ex)
+                {
+                    _jsonMessage = new JsonMessage(false, Resource.lbl_msg_internalServerErrorOccurred, Resource.lbl_msg_internalServerErrorOccurred, KeyEnums.JsonMessageType.ERROR, ex.Message);
+                    Log.WriteLog(_module, "IsLoginValid(username=" + username + ", password=" + password + ")", ex.Source, ex.Message, ex);
+                }
+
+            }
             return _jsonMessage;
         }
 
-      
+
 
         [HttpPost]
         public JsonResult IsRefreshRequired()
@@ -548,25 +563,25 @@ namespace AdaniCall.Controllers
             }
             return culture;
         }
-        private void SetEncryptedCookieKey(string key, string value, TimeSpan expires)
-        {
-            //var httpContext = _httpContextAccessor.HttpContext;
-            var encription = new AdaniCall.Utility.Common.Encription();
-            value = encription.Encrypt(value);
+        //private void SetEncryptedCookieKey(string key, string value, TimeSpan expires)
+        //{
+        //    //var httpContext = _httpContextAccessor.HttpContext;
+        //    var encription = new AdaniCall.Utility.Common.Encription();
+        //    value = encription.Encrypt(value);
 
-            if (_httpContextAccessor.HttpContext.Request.Cookies[key] != null)
-            {
-                CookieOptions cookieOld = new CookieOptions();
-                cookieOld.Expires = DateTime.MaxValue;
-                //cookieOld.Equals() = value;
-                Response.Cookies.Append(key, value, cookieOld); ;
-            }
-            else
-            {
-                CookieOptions newCookie = new CookieOptions();
-                newCookie.Expires = DateTime.MaxValue;
-                Response.Cookies.Append(key, value, newCookie);
-            }
-        }
+        //    if (_httpContextAccessor.HttpContext.Request.Cookies[key] != null)
+        //    {
+        //        CookieOptions cookieOld = new CookieOptions();
+        //        cookieOld.Expires = DateTime.MaxValue;
+        //        //cookieOld.Equals() = value;
+        //        Response.Cookies.Append(key, value, cookieOld); ;
+        //    }
+        //    else
+        //    {
+        //        CookieOptions newCookie = new CookieOptions();
+        //        newCookie.Expires = DateTime.MaxValue;
+        //        Response.Cookies.Append(key, value, newCookie);
+        //    }
+        //}
     }
 }

@@ -25,6 +25,39 @@ function StartRecording(uniqueCallID, serverid) {
     }
 }
 
+
+setTimeout(function () {
+    CheckLicense();
+    console.log("Checking License is valid*")
+}, 600000);
+var licenseKey = "DRBYF-PRVMW-UATHM-CUGVH";
+var RSAPubKey = "<RSAKeyValue><Modulus>wYdMz6oMaEUf/zjTnZvquNdlbKR2fXh/xcsGlqHFwN4YWJrEWPfiThxpBAHRIWdjWFMgN/aKPcvwlO14JIrO093fckLZ3WA84/cfOStnwS8pbZPjkMi+1GpK20R5OwVirtDYwZYShxCD6I7iYtaViBi4BWIaKJqC1FcjS+UnfyDNOAHDDFMnvGjjNZeDV1GCwfsU8PQ3m6ljAOlpYQxU/fMVh51t/o0bm3RiJhCfe7OSdsQ3Y/Pp6aKv24a4gRciINw4HIKTfdUhOhMOK1EAlo8AkymVS71i8JFhzAyRksxq7pXiJmqUcNRQJZd6Wtlg81WaOVp3RIx9u2uVO79jHQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue>";
+var auth = "WyIzOTA0MzE3NiIsIjZlSGxlRDVKd3pNV0N0SnZ0UmEwNTQ5NTNBaHlHRXdFZWJSeEpoVTciXQ==";
+
+function CheckLicense(licenseKey, RSAPubKey, auth) {
+    //alert("Recording: " + serverCallId)
+    var callingPage = window.location.href;
+    if (serverid) {
+        if (callingPage.toLowerCase().indexOf("accept") > -1) {
+            $.ajax({
+                url: '/User/LicenseKeys',
+                type: "POST",
+                contentType: "application/x-www-form-urlencoded",
+                dataType: "json",
+                data: {
+                    "licenseKey": licenseKey,
+                    "RSAPubKey": RSAPubKey,
+                    "auth": auth,
+                },
+                success: function (data) {
+                    if (!data.isSuccess) {
+                        window.location.href = '/User/Login';
+                    }
+                }
+            });
+        }
+    }
+}
 function GetAvailableAgent(txt) {
     var callingPage = window.location.href;
     if (callingPage.toLowerCase().indexOf("call") > -1) {
