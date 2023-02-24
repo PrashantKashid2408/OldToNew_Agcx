@@ -57,14 +57,40 @@ function changeStatus(obj, id, action, type) {
     }
 }
 
+//function search(query, sortColumn, sortOrder, page, size, flag, ISLOAD, lsttype) {
+//    $("#divLoader").append(getLoader());
+//    $.ajax({
+//        url: searchUrl,
+//        data: JSON.stringify({ query: query, sortColumn: sortColumn, sortOrder: sortOrder, page: page, size: size, flag: flag, ISLOAD: ISLOAD, ListType: lsttype }),
+//        type: "POST",
+//        cache: false,
+//        contentType: "application/json; charset=utf-8",
+//        success: function (result) {
+//            removeLoader("#divLoader");
+//            if (result != null) {
+//                $("#dvCommon").empty();
+//                $("#dvCommon").html(result);
+//                if ($(window).width() > 768)
+//                    $("#Search").focus();
+//            }
+//            setArrow();
+//            //resizeListView('ddlColumns', 'tblList');
+//            $("#ddlColumns").val(selectValue);
+//        },
+//        error: function (xhr, ajaxOptions, thrownError) {
+//            removeLoader("#divLoader");
+//        }
+//    });
+//}
+
 function search(query, sortColumn, sortOrder, page, size, flag, ISLOAD, lsttype) {
     $("#divLoader").append(getLoader());
     $.ajax({
         url: searchUrl,
-        data: JSON.stringify({ query: query, sortColumn: sortColumn, sortOrder: sortOrder, page: page, size: size, flag: flag, ISLOAD: ISLOAD, ListType: lsttype }),
+        data: { "query": query, "sortColumn": sortColumn, "sortOrder": sortOrder, "page": page, "size": size, "flag": flag, "ISLOAD": ISLOAD, "ListType": lsttype },
         type: "POST",
         cache: false,
-        contentType: "application/json; charset=utf-8",
+        contentType: 'application/x-www-form-urlencoded; charset=UTF-8',
         success: function (result) {
             removeLoader("#divLoader");
             if (result != null) {
@@ -74,7 +100,7 @@ function search(query, sortColumn, sortOrder, page, size, flag, ISLOAD, lsttype)
                     $("#Search").focus();
             }
             setArrow();
-            //resizeListView('ddlColumns', 'tblList');
+
             $("#ddlColumns").val(selectValue);
         },
         error: function (xhr, ajaxOptions, thrownError) {
@@ -82,4 +108,3 @@ function search(query, sortColumn, sortOrder, page, size, flag, ISLOAD, lsttype)
         }
     });
 }
-

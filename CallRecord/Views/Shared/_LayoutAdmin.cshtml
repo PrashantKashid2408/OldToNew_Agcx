@@ -36,23 +36,28 @@
     <link href="~/content/plugins/overlayscrollbars/css/overlayscrollbars.min.css" rel="stylesheet" />
     <link href="~/content/plugins/bootstrap-datepicker/bootstrap-datepicker.min.css" rel="stylesheet" />
     <link href="~/content/plugins/bootstrap-dialog/bootstrap-dialog.min.css" rel="stylesheet" />
+    <link href="~/content/summernote.min.css" rel="stylesheet" />
     <link href="~/Content/Site.css" rel="stylesheet" />
+
     <script src="~/scripts/jquery-2.1.3.js"></script>
     <script src="~/scripts/jquery-ui-1.11.4.min.js"></script>
     <script src="~/scripts/jquery.validate.min.js"></script>
     <script src="~/scripts/modernizr-2.6.2.js"></script>
-    <script src="~/scripts/plugins/bootstrap/js/bootstrap.min.js"></script>
+    @*<script src="~/scripts/plugins/bootstrap/js/bootstrap.min.js"></script>*@
+    <script src="~/scripts/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="~/scripts/plugins/sweetalert2/sweetalert2.min.js"></script>
     <script src="~/scripts/plugins/bs4/bootstrap-dialog.min.js"></script>
     <script src="~/scripts/plugins/bs4/bootstrap-dialog-custom-bs4.js"></script>
     <script src="~/scripts/plugins/bootstrap-datepicker/bootstrap-datepicker.js"></script>
     <script src="~/scripts/plugins/overlayscrollbars/js/jquery.overlayscrollbars.min.js"></script>
-<script src="~/scripts/dist/js/demo.js"></script>
+    <script src="~/scripts/summernote.min.js"></script>
+    <script src="~/scripts/dist/js/demo.js"></script>
     <script src="~/scripts/respond.js"></script>
+    <script src="~/Scripts/common/global.js"></script>
     @* @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")*@
-   
+
     <script src="~/Scripts/Common/validation.js"></script>
     <script src="~/Scripts/Common/common.js?v=1"></script>
 
@@ -175,12 +180,26 @@
 
                             @if (ViewBag.MenuId == KeyEnums.MenuKeys.liWordCloudAssessments.ToString())
                             {
-                                <a href="/Assessments/List" class="nav-link active"><i class="nav-icon fas fa-table"></i><p>Word Cloud Assessments</p></a>
+                                <a href="/Assessments/Index" class="nav-link active"><i class="nav-icon fas fa-table"></i><p>Word Cloud Assessments</p></a>
                             }
                             else
                             {
-                                <a href="/Assessments/List" class="nav-link"><i class="nav-icon fas fa-table"></i><p>Word Cloud Assessments</p></a>
+                                <a href="/Assessments/Index" class="nav-link"><i class="nav-icon fas fa-table"></i><p>Word Cloud Assessments</p></a>
                             }
+                            @*@if (ViewBag.MenuId == KeyEnums.MenuKeys.liKioskMaster.ToString())
+                            {
+                            <a class="nav-link text-dark active" asp-area="" asp-controller="KioskMaster" asp-action="Index">
+                            <i class="nav-icon fas fa-list"></i>
+                            <p>KioskMaster</p>
+                            </a>
+                            }
+                            else
+                            {
+                            <a class="nav-link text-dark active" asp-area="" asp-controller="KioskMaster" asp-action="Index">
+                            <i class="nav-icon fas fa-list"></i>
+                            <p>KioskMaster</p>
+                            </a>
+                            }*@                        
                         </li>
                     </ul>
                 </nav>

@@ -27,6 +27,7 @@ namespace AdaniCall.Controllers
         private readonly IHttpContextAccessor _httpContextAccessor;
          private ISession _session => _httpContextAccessor.HttpContext.Session;
          private IMemoryCache _cache;
+        private IConfiguration _configuration;
 
         
         public HomeController(ILogger<HomeController> logger, IHttpContextAccessor httpContextAccessor , IMemoryCache cache)
@@ -89,7 +90,7 @@ namespace AdaniCall.Controllers
                     }
                 }
                 else
-                    new UserController(_httpContextAccessor,_cache).Logout();
+                    new UserController(_httpContextAccessor,_cache, _configuration).Logout();
 
                 ViewBag.CallToken = objAT.Token;
             }
@@ -146,7 +147,7 @@ namespace AdaniCall.Controllers
                     }
                 }
                 else
-                    new UserController(_httpContextAccessor,_cache).Logout();
+                    new UserController(_httpContextAccessor,_cache, _configuration).Logout();
 
                 ViewBag.AcceptToken = objAT.Token;
                 ViewBag.AgentCallerID = CallerID;

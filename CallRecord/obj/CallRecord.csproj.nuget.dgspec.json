@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AdaniCore\\AdaniTeams\\CallRecord\\CallRecord.csproj": {}
+    "D:\\OldToNew_Agcx\\CallRecord\\CallRecord.csproj": {}
   },
   "projects": {
-    "D:\\AdaniCore\\AdaniTeams\\AdaniCall.Business\\AdaniCall.Business.csproj": {
+    "D:\\OldToNew_Agcx\\AdaniCall.Business\\AdaniCall.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AdaniCore\\AdaniTeams\\AdaniCall.Business\\AdaniCall.Business.csproj",
+        "projectUniqueName": "D:\\OldToNew_Agcx\\AdaniCall.Business\\AdaniCall.Business.csproj",
         "projectName": "AdaniCall.Business",
-        "projectPath": "D:\\AdaniCore\\AdaniTeams\\AdaniCall.Business\\AdaniCall.Business.csproj",
+        "projectPath": "D:\\OldToNew_Agcx\\AdaniCall.Business\\AdaniCall.Business.csproj",
         "packagesPath": "C:\\Users\\prashant.kashid\\.nuget\\packages\\",
-        "outputPath": "D:\\AdaniCore\\AdaniTeams\\AdaniCall.Business\\obj\\",
+        "outputPath": "D:\\OldToNew_Agcx\\AdaniCall.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,14 +32,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\AdaniCore\\AdaniTeams\\AdaniCall.Entity\\AdaniCall.Entity.csproj": {
-                "projectPath": "D:\\AdaniCore\\AdaniTeams\\AdaniCall.Entity\\AdaniCall.Entity.csproj"
+              "D:\\OldToNew_Agcx\\AdaniCall.Entity\\AdaniCall.Entity.csproj": {
+                "projectPath": "D:\\OldToNew_Agcx\\AdaniCall.Entity\\AdaniCall.Entity.csproj"
               },
-              "D:\\AdaniCore\\AdaniTeams\\AdaniCall.Resources\\AdaniCall.Resources.csproj": {
-                "projectPath": "D:\\AdaniCore\\AdaniTeams\\AdaniCall.Resources\\AdaniCall.Resources.csproj"
+              "D:\\OldToNew_Agcx\\AdaniCall.Resources\\AdaniCall.Resources.csproj": {
+                "projectPath": "D:\\OldToNew_Agcx\\AdaniCall.Resources\\AdaniCall.Resources.csproj"
               },
-              "D:\\AdaniCore\\AdaniTeams\\AdaniCall.Utility\\AdaniCall.Utility.csproj": {
-                "projectPath": "D:\\AdaniCore\\AdaniTeams\\AdaniCall.Utility\\AdaniCall.Utility.csproj"
+              "D:\\OldToNew_Agcx\\AdaniCall.Utility\\AdaniCall.Utility.csproj": {
+                "projectPath": "D:\\OldToNew_Agcx\\AdaniCall.Utility\\AdaniCall.Utility.csproj"
               }
             }
           }
@@ -111,14 +111,14 @@
         }
       }
     },
-    "D:\\AdaniCore\\AdaniTeams\\AdaniCall.Entity\\AdaniCall.Entity.csproj": {
+    "D:\\OldToNew_Agcx\\AdaniCall.Entity\\AdaniCall.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AdaniCore\\AdaniTeams\\AdaniCall.Entity\\AdaniCall.Entity.csproj",
+        "projectUniqueName": "D:\\OldToNew_Agcx\\AdaniCall.Entity\\AdaniCall.Entity.csproj",
         "projectName": "AdaniCall.Entity",
-        "projectPath": "D:\\AdaniCore\\AdaniTeams\\AdaniCall.Entity\\AdaniCall.Entity.csproj",
+        "projectPath": "D:\\OldToNew_Agcx\\AdaniCall.Entity\\AdaniCall.Entity.csproj",
         "packagesPath": "C:\\Users\\prashant.kashid\\.nuget\\packages\\",
-        "outputPath": "D:\\AdaniCore\\AdaniTeams\\AdaniCall.Entity\\obj\\",
+        "outputPath": "D:\\OldToNew_Agcx\\AdaniCall.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -176,14 +176,14 @@
         }
       }
     },
-    "D:\\AdaniCore\\AdaniTeams\\AdaniCall.Resources\\AdaniCall.Resources.csproj": {
+    "D:\\OldToNew_Agcx\\AdaniCall.Resources\\AdaniCall.Resources.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AdaniCore\\AdaniTeams\\AdaniCall.Resources\\AdaniCall.Resources.csproj",
+        "projectUniqueName": "D:\\OldToNew_Agcx\\AdaniCall.Resources\\AdaniCall.Resources.csproj",
         "projectName": "AdaniCall.Resources",
-        "projectPath": "D:\\AdaniCore\\AdaniTeams\\AdaniCall.Resources\\AdaniCall.Resources.csproj",
+        "projectPath": "D:\\OldToNew_Agcx\\AdaniCall.Resources\\AdaniCall.Resources.csproj",
         "packagesPath": "C:\\Users\\prashant.kashid\\.nuget\\packages\\",
-        "outputPath": "D:\\AdaniCore\\AdaniTeams\\AdaniCall.Resources\\obj\\",
+        "outputPath": "D:\\OldToNew_Agcx\\AdaniCall.Resources\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -235,14 +235,14 @@
         }
       }
     },
-    "D:\\AdaniCore\\AdaniTeams\\AdaniCall.Utility\\AdaniCall.Utility.csproj": {
+    "D:\\OldToNew_Agcx\\AdaniCall.Utility\\AdaniCall.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AdaniCore\\AdaniTeams\\AdaniCall.Utility\\AdaniCall.Utility.csproj",
+        "projectUniqueName": "D:\\OldToNew_Agcx\\AdaniCall.Utility\\AdaniCall.Utility.csproj",
         "projectName": "AdaniCall.Utility",
-        "projectPath": "D:\\AdaniCore\\AdaniTeams\\AdaniCall.Utility\\AdaniCall.Utility.csproj",
+        "projectPath": "D:\\OldToNew_Agcx\\AdaniCall.Utility\\AdaniCall.Utility.csproj",
         "packagesPath": "C:\\Users\\prashant.kashid\\.nuget\\packages\\",
-        "outputPath": "D:\\AdaniCore\\AdaniTeams\\AdaniCall.Utility\\obj\\",
+        "outputPath": "D:\\OldToNew_Agcx\\AdaniCall.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -316,14 +316,14 @@
         }
       }
     },
-    "D:\\AdaniCore\\AdaniTeams\\CallRecord\\CallRecord.csproj": {
+    "D:\\OldToNew_Agcx\\CallRecord\\CallRecord.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AdaniCore\\AdaniTeams\\CallRecord\\CallRecord.csproj",
+        "projectUniqueName": "D:\\OldToNew_Agcx\\CallRecord\\CallRecord.csproj",
         "projectName": "CallRecord",
-        "projectPath": "D:\\AdaniCore\\AdaniTeams\\CallRecord\\CallRecord.csproj",
+        "projectPath": "D:\\OldToNew_Agcx\\CallRecord\\CallRecord.csproj",
         "packagesPath": "C:\\Users\\prashant.kashid\\.nuget\\packages\\",
-        "outputPath": "D:\\AdaniCore\\AdaniTeams\\CallRecord\\obj\\",
+        "outputPath": "D:\\OldToNew_Agcx\\CallRecord\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -344,17 +344,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\AdaniCore\\AdaniTeams\\AdaniCall.Business\\AdaniCall.Business.csproj": {
-                "projectPath": "D:\\AdaniCore\\AdaniTeams\\AdaniCall.Business\\AdaniCall.Business.csproj"
+              "D:\\OldToNew_Agcx\\AdaniCall.Business\\AdaniCall.Business.csproj": {
+                "projectPath": "D:\\OldToNew_Agcx\\AdaniCall.Business\\AdaniCall.Business.csproj"
               },
-              "D:\\AdaniCore\\AdaniTeams\\AdaniCall.Entity\\AdaniCall.Entity.csproj": {
-                "projectPath": "D:\\AdaniCore\\AdaniTeams\\AdaniCall.Entity\\AdaniCall.Entity.csproj"
+              "D:\\OldToNew_Agcx\\AdaniCall.Entity\\AdaniCall.Entity.csproj": {
+                "projectPath": "D:\\OldToNew_Agcx\\AdaniCall.Entity\\AdaniCall.Entity.csproj"
               },
-              "D:\\AdaniCore\\AdaniTeams\\AdaniCall.Resources\\AdaniCall.Resources.csproj": {
-                "projectPath": "D:\\AdaniCore\\AdaniTeams\\AdaniCall.Resources\\AdaniCall.Resources.csproj"
+              "D:\\OldToNew_Agcx\\AdaniCall.Resources\\AdaniCall.Resources.csproj": {
+                "projectPath": "D:\\OldToNew_Agcx\\AdaniCall.Resources\\AdaniCall.Resources.csproj"
               },
-              "D:\\AdaniCore\\AdaniTeams\\AdaniCall.Utility\\AdaniCall.Utility.csproj": {
-                "projectPath": "D:\\AdaniCore\\AdaniTeams\\AdaniCall.Utility\\AdaniCall.Utility.csproj"
+              "D:\\OldToNew_Agcx\\AdaniCall.Utility\\AdaniCall.Utility.csproj": {
+                "projectPath": "D:\\OldToNew_Agcx\\AdaniCall.Utility\\AdaniCall.Utility.csproj"
               }
             }
           }
@@ -392,6 +392,10 @@
             "Azure.Storage.Blobs": {
               "target": "Package",
               "version": "[12.14.1, )"
+            },
+            "Cryptolens.Licensing": {
+              "target": "Package",
+              "version": "[4.0.42, )"
             },
             "Microsoft.Azure.WebJobs.Core": {
               "target": "Package",

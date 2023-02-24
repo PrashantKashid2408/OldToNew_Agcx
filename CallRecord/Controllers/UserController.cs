@@ -340,12 +340,13 @@ namespace AdaniCall.Controllers
             //var RSAPubKey = "<RSAKeyValue><Modulus>wYdMz6oMaEUf/zjTnZvquNdlbKR2fXh/xcsGlqHFwN4YWJrEWPfiThxpBAHRIWdjWFMgN/aKPcvwlO14JIrO093fckLZ3WA84/cfOStnwS8pbZPjkMi+1GpK20R5OwVirtDYwZYShxCD6I7iYtaViBi4BWIaKJqC1FcjS+UnfyDNOAHDDFMnvGjjNZeDV1GCwfsU8PQ3m6ljAOlpYQxU/fMVh51t/o0bm3RiJhCfe7OSdsQ3Y/Pp6aKv24a4gRciINw4HIKTfdUhOhMOK1EAlo8AkymVS71i8JFhzAyRksxq7pXiJmqUcNRQJZd6Wtlg81WaOVp3RIx9u2uVO79jHQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue>";
             string resultMessage = "";
             bool license = false;
+            Helpers.WindowsOnly = true;
             //var auth = "WyIzOTA0MzE3NiIsIjZlSGxlRDVKd3pNV0N0SnZ0UmEwNTQ5NTNBaHlHRXdFZWJSeEpoVTciXQ==";
             var result = Key.Activate(token: auth, parameters: new ActivateModel()
             {
                 Key = licenseKey,
-                ProductId = 18775,
-                Sign = true,
+                ProductId = Convert.ToInt32(_ProductId),
+                Sign = true,    
                 MachineCode = Helpers.GetMachineCodePI(v: 2)
             });
 

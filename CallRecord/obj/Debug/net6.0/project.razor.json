@@ -18429,6 +18429,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\OldToNew_Agcx\\CallRecord\\Views\\Assessments\\Index.cshtml",
+      "TargetPath": "Views\\Assessments\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\OldToNew_Agcx\\CallRecord\\Views\\Home\\Chatbot.cshtml",
       "TargetPath": "Views\\Home\\Chatbot.cshtml",
       "FileKind": "mvc"
@@ -18476,11 +18481,6 @@
     {
       "FilePath": "d:\\OldToNew_Agcx\\CallRecord\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\OldToNew_Agcx\\CallRecord\\Views\\Assessments\\List.cshtml",
-      "TargetPath": "Views\\Assessments\\List.cshtml",
       "FileKind": "mvc"
     },
     {

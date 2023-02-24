@@ -11,6 +11,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using SKM.V3.Methods;
 
 namespace AdaniCall.Controllers
 {
@@ -26,25 +27,28 @@ namespace AdaniCall.Controllers
         private Int64 _userId = 0;
         private string _role = "";
         string _cacheKey = "Assessments_";
+        Helper _helper;
+        bool isValidUser = false;
+        int page = 1, size = 10;
 
         JsonMessage _jsonMessage = null;
         public AssessmentsController(IHttpContextAccessor httpContextAccessor, IMemoryCache cache)
         {
             _httpContextAccessor = httpContextAccessor;
             _cache = cache;
+            _helper = new Helper(_httpContextAccessor);
+            _userId = httpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.UserId.ToString()) != null ? Convert.ToInt64(httpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.UserId.ToString())) : 0;
+            _role = httpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.UserRole.ToString()) != null ? Convert.ToString(httpContextAccessor.HttpContext.Session.GetString(KeyEnums.SessionKeys.UserRole.ToString())) : "";
+            isValidUser = _helper.IsValidUser(_userId, RoleEnums.SuperAdmin + "," + RoleEnums.Admin);
         }
 
 
         // GET: Assessments
-        public ActionResult Index()
+        public IActionResult Index()
         {
-            return View();
-        }
 
-        public ActionResult List()
-        {
             List<SentenceAssessments> _list = new List<SentenceAssessments>();
-            int page = 1, size = 10;
+            //  int page = 1, size = 10;
             try
             {
                 ViewBag.MenuId = KeyEnums.MenuKeys.liWordCloudAssessments.ToString();
@@ -62,6 +66,11 @@ namespace AdaniCall.Controllers
 
             return View(_list.ToPagedList(1, size));
         }
+
+        //public ActionResult List()
+        //{
+
+        //}
 
         public List<SentenceAssessments> GetList(string query, string sortColumn, string sortOrder, ref int page, ref int size, string flag, Int64 _userId = 0, bool isLoad = true, string ListType = "")
         {
@@ -152,19 +161,51 @@ namespace AdaniCall.Controllers
                 return _list;
         }
 
+        //    public ActionResult Search(string query, string sortColumn, string sortOrder, int page, int size, string flag, bool ISLOAD = false, string ListType = "")
+        //    {
+        //        try
+        //        {
+        //            ViewBag.RequestList = ListType;
+        //            _userId = (_session.GetString(KeyEnums.SessionKeys.UserId.ToString()) != null ? Convert.ToInt64(_session.GetString(KeyEnums.SessionKeys.UserId.ToString())) : 0);
+        //            _role = (_session.GetString(KeyEnums.SessionKeys.UserRole.ToString()) != null ? Convert.ToString(_session.GetString(KeyEnums.SessionKeys.UserRole.ToString())) : "");
+
+        //            _list = GetList(query, sortColumn, sortOrder, ref page, ref size, flag, _userId, ISLOAD, ListType);
+        //        }
+        //        catch (Exception ex)
+        //        {
+        //            Log.WriteLog(_module, "Search(query=" + query + ", sortColumn=" + sortColumn + ", sortOrder=" + sortOrder + ", page=" + page + ", size=" + size + ", flag=" + flag + ", ISLOAD=" + ISLOAD + ",ListType:" + ListType + ")", ex.Source, ex.Message, ex);
+        //        }
+        //        return PartialView("_ListPartial", _list.ToPagedList(page, size));
+        //    }
+        //}
+
         public ActionResult Search(string query, string sortColumn, string sortOrder, int page, int size, string flag, bool ISLOAD = false, string ListType = "")
         {
-            try
+            List<SentenceAssessments> _list = new List<SentenceAssessments>();
+            if (isValidUser)
             {
-                ViewBag.RequestList = ListType;
-                _userId = (_session.GetString(KeyEnums.SessionKeys.UserId.ToString()) != null ? Convert.ToInt64(_session.GetString(KeyEnums.SessionKeys.UserId.ToString())) : 0);
-                _role = (_session.GetString(KeyEnums.SessionKeys.UserRole.ToString()) != null ? Convert.ToString(_session.GetString(KeyEnums.SessionKeys.UserRole.ToString())) : "");
-
-                _list = GetList(query, sortColumn, sortOrder, ref page, ref size, flag, _userId, ISLOAD, ListType);
-            }
-            catch (Exception ex)
-            {
-                Log.WriteLog(_module, "Search(query=" + query + ", sortColumn=" + sortColumn + ", sortOrder=" + sortOrder + ", page=" + page + ", size=" + size + ", flag=" + flag + ", ISLOAD=" + ISLOAD + ",ListType:" + ListType + ")", ex.Source, ex.Message, ex);
+                try
+                {
+                    ViewBag.RequestList = ListType;
+                    if (ListType == KeyEnums.ListType.AllViews.ToString())
+                    {
+                        if (query != "")
+                            _list = GetList(query, sortColumn, sortOrder, ref page, ref size, flag, _userId, ISLOAD, ListType);
+                        else
+                        {
+                            ViewBag.SortColumn = "";
+                            ViewBag.SortOrder = "desc";
+                            ViewBag.Page = 1;
+                            ViewBag.Size = 10;
+                        }
+                    }
+                    else
+                        _list = GetList(query, sortColumn, sortOrder, ref page, ref size, flag, _userId, ISLOAD, ListType);
+                }
+                catch (Exception ex)
+                {
+                    Log.WriteLog(_module, "Search(query=" + query + ", sortColumn=" + sortColumn + ", sortOrder=" + sortOrder + ", page=" + page + ", size=" + size + ", flag=" + flag + ", ISLOAD=" + ISLOAD + ",ListType:" + ListType + ")", ex.Source, ex.Message, ex);
+                }
             }
             return PartialView("_ListPartial", _list.ToPagedList(page, size));
         }

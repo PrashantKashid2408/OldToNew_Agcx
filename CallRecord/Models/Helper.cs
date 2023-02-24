@@ -37,7 +37,6 @@ namespace AdaniCall.Models
         public LoginVM GetSession()
         {
             LoginVM loginVM = new LoginVM();
-
             try
             {
                 if (_session.GetString(KeyEnums.SessionKeys.UserSession.ToString()) != null)
@@ -152,7 +151,33 @@ namespace AdaniCall.Models
             }
         }
 
-       
+        
+        #region VALIDATION METHOD
+        public bool IsValidUser(Int64 UserID, string RoleIDs)
+        {
+            bool isAllowed = false;
+            try
+            {
+                if (_session.GetString(KeyEnums.SessionKeys.UserRole.ToString()) == null)
+                    isAllowed = false;
+                else if (RoleIDs.ToLower().Contains(_session.GetString(KeyEnums.SessionKeys.UserRole.ToString()).ToString().ToLower()))
+                    isAllowed = true;
+
+                if (!isAllowed)
+                {
+                    _httpContextAccessor.HttpContext.Response.Redirect("/Users/Login", true);
+                }
+            }
+            catch (Exception ex)
+            {
+                Log.WriteLog(_module, "IsValidUser(UserID:" + UserID + ",RoleIDs:" + RoleIDs + ")", ex.Source, ex.Message, ex);
+            }
+            return isAllowed;
+        }
+
+        #endregion
+
+
 
     }
 }

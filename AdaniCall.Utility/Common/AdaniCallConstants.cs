@@ -73,5 +73,6 @@ namespace AdaniCall.Utility.Common
        
         public static readonly string SubcategoryCode = GetAppSetting("AppSettings:SubcategoryCode");
         public static readonly string CaseTypeCode = GetAppSetting("AppSettings:CaseTypeCode");
+        public static readonly string LoginCookie = GetAppSetting("AppSettings:LoginCookie");
     }
 }
