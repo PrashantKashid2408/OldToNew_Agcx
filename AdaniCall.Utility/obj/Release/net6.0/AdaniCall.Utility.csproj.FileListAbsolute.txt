@@ -1,0 +1,60 @@
+D:\AdaniCall\AdaniCall.Utility\bin\Release\net6.0\AdaniCall.Utility.deps.json
+D:\AdaniCall\AdaniCall.Utility\bin\Release\net6.0\AdaniCall.Utility.dll
+D:\AdaniCall\AdaniCall.Utility\bin\Release\net6.0\AdaniCall.Utility.pdb
+D:\AdaniCall\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.csproj.AssemblyReference.cache
+D:\AdaniCall\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\AdaniCall\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.AssemblyInfoInputs.cache
+D:\AdaniCall\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.AssemblyInfo.cs
+D:\AdaniCall\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.csproj.CoreCompileInputs.cache
+D:\AdaniCall\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.dll
+D:\AdaniCall\AdaniCall.Utility\obj\Release\net6.0\refint\AdaniCall.Utility.dll
+D:\AdaniCall\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.pdb
+D:\AdaniCall\AdaniCall.Utility\obj\Release\net6.0\ref\AdaniCall.Utility.dll
+D:\project_AGCX\AdaniCall.Utility\bin\Release\net6.0\AdaniCall.Utility.deps.json
+D:\project_AGCX\AdaniCall.Utility\bin\Release\net6.0\AdaniCall.Utility.dll
+D:\project_AGCX\AdaniCall.Utility\bin\Release\net6.0\AdaniCall.Utility.pdb
+D:\project_AGCX\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.csproj.AssemblyReference.cache
+D:\project_AGCX\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\project_AGCX\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.AssemblyInfoInputs.cache
+D:\project_AGCX\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.AssemblyInfo.cs
+D:\project_AGCX\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.csproj.CoreCompileInputs.cache
+D:\project_AGCX\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.dll
+D:\project_AGCX\AdaniCall.Utility\obj\Release\net6.0\refint\AdaniCall.Utility.dll
+D:\project_AGCX\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.pdb
+D:\project_AGCX\AdaniCall.Utility\obj\Release\net6.0\ref\AdaniCall.Utility.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\AdaniCall.Utility\bin\Release\net6.0\AdaniCall.Utility.deps.json
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\AdaniCall.Utility\bin\Release\net6.0\AdaniCall.Utility.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\AdaniCall.Utility\bin\Release\net6.0\AdaniCall.Utility.pdb
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.csproj.AssemblyReference.cache
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.AssemblyInfoInputs.cache
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.AssemblyInfo.cs
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.csproj.CoreCompileInputs.cache
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\AdaniCall.Utility\obj\Release\net6.0\refint\AdaniCall.Utility.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.pdb
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\AdaniCall.Utility\obj\Release\net6.0\ref\AdaniCall.Utility.dll
+D:\AdaniTeams\AdaniCall.Utility\bin\Release\net6.0\AdaniCall.Utility.deps.json
+D:\AdaniTeams\AdaniCall.Utility\bin\Release\net6.0\AdaniCall.Utility.dll
+D:\AdaniTeams\AdaniCall.Utility\bin\Release\net6.0\AdaniCall.Utility.pdb
+D:\AdaniTeams\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.csproj.AssemblyReference.cache
+D:\AdaniTeams\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\AdaniTeams\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.AssemblyInfoInputs.cache
+D:\AdaniTeams\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.AssemblyInfo.cs
+D:\AdaniTeams\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.csproj.CoreCompileInputs.cache
+D:\AdaniTeams\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.dll
+D:\AdaniTeams\AdaniCall.Utility\obj\Release\net6.0\refint\AdaniCall.Utility.dll
+D:\AdaniTeams\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.pdb
+D:\AdaniTeams\AdaniCall.Utility\obj\Release\net6.0\ref\AdaniCall.Utility.dll
+D:\AdaniCore\Latest\AdaniTeams\AdaniCall.Utility\bin\Release\net6.0\AdaniCall.Utility.deps.json
+D:\AdaniCore\Latest\AdaniTeams\AdaniCall.Utility\bin\Release\net6.0\AdaniCall.Utility.dll
+D:\AdaniCore\Latest\AdaniTeams\AdaniCall.Utility\bin\Release\net6.0\AdaniCall.Utility.pdb
+D:\AdaniCore\Latest\AdaniTeams\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.csproj.AssemblyReference.cache
+D:\AdaniCore\Latest\AdaniTeams\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\AdaniCore\Latest\AdaniTeams\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.AssemblyInfoInputs.cache
+D:\AdaniCore\Latest\AdaniTeams\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.AssemblyInfo.cs
+D:\AdaniCore\Latest\AdaniTeams\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.csproj.CoreCompileInputs.cache
+D:\AdaniCore\Latest\AdaniTeams\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.dll
+D:\AdaniCore\Latest\AdaniTeams\AdaniCall.Utility\obj\Release\net6.0\refint\AdaniCall.Utility.dll
+D:\AdaniCore\Latest\AdaniTeams\AdaniCall.Utility\obj\Release\net6.0\AdaniCall.Utility.pdb
+D:\AdaniCore\Latest\AdaniTeams\AdaniCall.Utility\obj\Release\net6.0\ref\AdaniCall.Utility.dll

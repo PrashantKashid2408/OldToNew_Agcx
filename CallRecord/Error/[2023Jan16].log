@@ -1,0 +1,13 @@
+LogTime : 5:01:01 PM 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Source Azure.Messaging.EventGrid,Message:Value cannot be null. (Parameter 'EventType')
+ 
+Error Message :    at Azure.Messaging.EventGrid.EventGridEvent..ctor(EventGridEventInternal eventGridEventInternal)
+   at Azure.Messaging.EventGrid.EventGridEvent.ParseMany(BinaryData json)
+   at AdaniCall.Controllers.API.RecordingController.GetRecordingFile(Object request) in D:\AdaniTeams\CallRecord\Controllers\API\RecordingController.cs:line 147
+ 
+ 
+ 
+======================================== 
+ 

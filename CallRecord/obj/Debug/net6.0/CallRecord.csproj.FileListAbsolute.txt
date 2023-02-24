@@ -1,0 +1,650 @@
+D:\CallRecord\bin\Debug\net6.0\appsettings.Development.json
+D:\CallRecord\bin\Debug\net6.0\appsettings.json
+D:\CallRecord\bin\Debug\net6.0\CallRecord.staticwebassets.runtime.json
+D:\CallRecord\bin\Debug\net6.0\CallRecord.exe
+D:\CallRecord\bin\Debug\net6.0\CallRecord.deps.json
+D:\CallRecord\bin\Debug\net6.0\CallRecord.runtimeconfig.json
+D:\CallRecord\bin\Debug\net6.0\CallRecord.dll
+D:\CallRecord\bin\Debug\net6.0\CallRecord.pdb
+D:\CallRecord\obj\Debug\net6.0\CallRecord.csproj.AssemblyReference.cache
+D:\CallRecord\obj\Debug\net6.0\CallRecord.GeneratedMSBuildEditorConfig.editorconfig
+D:\CallRecord\obj\Debug\net6.0\CallRecord.AssemblyInfoInputs.cache
+D:\CallRecord\obj\Debug\net6.0\CallRecord.AssemblyInfo.cs
+D:\CallRecord\obj\Debug\net6.0\CallRecord.csproj.CoreCompileInputs.cache
+D:\CallRecord\obj\Debug\net6.0\CallRecord.MvcApplicationPartsAssemblyInfo.cache
+D:\CallRecord\obj\Debug\net6.0\CallRecord.RazorAssemblyInfo.cache
+D:\CallRecord\obj\Debug\net6.0\CallRecord.RazorAssemblyInfo.cs
+D:\CallRecord\obj\Debug\net6.0\staticwebassets\msbuild.CallRecord.Microsoft.AspNetCore.StaticWebAssets.props
+D:\CallRecord\obj\Debug\net6.0\staticwebassets\msbuild.build.CallRecord.props
+D:\CallRecord\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CallRecord.props
+D:\CallRecord\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CallRecord.props
+D:\CallRecord\obj\Debug\net6.0\staticwebassets.pack.json
+D:\CallRecord\obj\Debug\net6.0\staticwebassets.build.json
+D:\CallRecord\obj\Debug\net6.0\staticwebassets.development.json
+D:\CallRecord\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\CallRecord\obj\Debug\net6.0\scopedcss\bundle\CallRecord.styles.css
+D:\CallRecord\obj\Debug\net6.0\scopedcss\projectbundle\CallRecord.bundle.scp.css
+D:\CallRecord\obj\Debug\net6.0\CallRecord.dll
+D:\CallRecord\obj\Debug\net6.0\refint\CallRecord.dll
+D:\CallRecord\obj\Debug\net6.0\CallRecord.pdb
+D:\CallRecord\obj\Debug\net6.0\CallRecord.genruntimeconfig.cache
+D:\CallRecord\obj\Debug\net6.0\ref\CallRecord.dll
+D:\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.csproj.AssemblyReference.cache
+D:\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.GeneratedMSBuildEditorConfig.editorconfig
+D:\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.AssemblyInfoInputs.cache
+D:\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.AssemblyInfo.cs
+D:\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.csproj.CoreCompileInputs.cache
+D:\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.MvcApplicationPartsAssemblyInfo.cs
+D:\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.MvcApplicationPartsAssemblyInfo.cache
+D:\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.RazorAssemblyInfo.cache
+D:\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.RazorAssemblyInfo.cs
+D:\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.dll
+D:\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\refint\CallRecord.dll
+D:\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.pdb
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\appsettings.json
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\CallRecord.staticwebassets.runtime.json
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\CallRecord.exe
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\CallRecord.deps.json
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\CallRecord.runtimeconfig.json
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\CallRecord.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\CallRecord.pdb
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\Azure.Communication.CallAutomation.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\Azure.Communication.CallingServer.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\Azure.Communication.Common.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\Azure.Communication.Identity.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\Azure.Messaging.EventGrid.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\Azure.Storage.Blobs.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\Azure.Storage.Common.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\JetBrains.Annotations.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\System.Data.OleDb.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\System.IO.Hashing.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\X.PagedList.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\X.PagedList.Mvc.Core.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Data.OleDb.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\AdaniCall.Business.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\AdaniCall.Entity.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\AdaniCall.Resources.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\AdaniCall.Utility.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\AdaniCall.Business.pdb
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\AdaniCall.Entity.pdb
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\AdaniCall.Resources.pdb
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\AdaniCall.Utility.pdb
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\de\AdaniCall.Resources.resources.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.csproj.AssemblyReference.cache
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.AssemblyInfoInputs.cache
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.AssemblyInfo.cs
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.csproj.CoreCompileInputs.cache
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.RazorAssemblyInfo.cache
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.RazorAssemblyInfo.cs
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\staticwebassets\msbuild.CallRecord.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\staticwebassets\msbuild.build.CallRecord.props
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CallRecord.props
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CallRecord.props
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\scopedcss\bundle\CallRecord.styles.css
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\scopedcss\projectbundle\CallRecord.bundle.scp.css
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.csproj.CopyComplete
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\refint\CallRecord.dll
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.pdb
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.genruntimeconfig.cache
+C:\Users\prashant.kashid\Desktop\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\ref\CallRecord.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\appsettings.Development.json
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\appsettings.json
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\CallRecord.staticwebassets.runtime.json
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\CallRecord.exe
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\CallRecord.deps.json
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\CallRecord.runtimeconfig.json
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\CallRecord.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\CallRecord.pdb
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\Azure.Communication.CallAutomation.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\Azure.Communication.CallingServer.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\Azure.Communication.Common.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\Azure.Communication.Identity.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\Azure.Core.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\Azure.Messaging.EventGrid.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\Azure.Storage.Blobs.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\Azure.Storage.Common.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\JetBrains.Annotations.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\System.Data.OleDb.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\System.IO.Hashing.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\System.Memory.Data.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\X.PagedList.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\X.PagedList.Mvc.Core.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Data.OleDb.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\AdaniCall.Business.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\AdaniCall.Entity.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\AdaniCall.Resources.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\AdaniCall.Utility.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\AdaniCall.Business.pdb
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\AdaniCall.Entity.pdb
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\AdaniCall.Resources.pdb
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\AdaniCall.Utility.pdb
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\bin\Debug\net6.0\de\AdaniCall.Resources.resources.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.csproj.AssemblyReference.cache
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.AssemblyInfoInputs.cache
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.AssemblyInfo.cs
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.csproj.CoreCompileInputs.cache
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.MvcApplicationPartsAssemblyInfo.cs
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.MvcApplicationPartsAssemblyInfo.cache
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.RazorAssemblyInfo.cache
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.RazorAssemblyInfo.cs
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\staticwebassets\msbuild.CallRecord.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\staticwebassets\msbuild.build.CallRecord.props
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CallRecord.props
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CallRecord.props
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\staticwebassets.build.json
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\staticwebassets.development.json
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\scopedcss\bundle\CallRecord.styles.css
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\scopedcss\projectbundle\CallRecord.bundle.scp.css
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.csproj.CopyComplete
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\refint\CallRecord.dll
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.pdb
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\CallRecord.genruntimeconfig.cache
+D:\Git Projects\AdaniTeams__Core6.0\CallRecord\obj\Debug\net6.0\ref\CallRecord.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\AllFiles\Video1\0-cin-d1-8f706b15e47c18c714c0f6f35e94d190.json
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\AllFiles\Video1\0-sin-d1-7aec61f7515b9273ffd35db680a61938.json
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\AllFiles\Video1\0-sin-d3-eb25fcbc0da06892541b842941abecd0.json
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\AllFiles\Video1\0-sin-d4-90a0071756673f8ed5587dff3ee53471.json
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\appsettings.Development.json
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\appsettings.json
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\CallRecord.staticwebassets.runtime.json
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\CallRecord.exe
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\CallRecord.deps.json
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\CallRecord.runtimeconfig.json
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\CallRecord.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\CallRecord.pdb
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\Azure.Communication.CallAutomation.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\Azure.Communication.CallingServer.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\Azure.Communication.Common.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\Azure.Communication.Identity.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\Azure.Core.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\Azure.Messaging.EventGrid.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\Azure.Storage.Blobs.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\Azure.Storage.Common.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\EntityFramework.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\JetBrains.Annotations.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\NLipsum.Core.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\Prototyping.Ipsum.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\Prototyping.Placeholdit.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\System.Data.OleDb.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\System.IO.Hashing.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\System.Memory.Data.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\X.PagedList.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\X.PagedList.Mvc.Core.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Data.OleDb.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\AdaniCall.Business.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\AdaniCall.Entity.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\AdaniCall.Resources.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\AdaniCall.Utility.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\AdaniCall.Business.pdb
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\AdaniCall.Entity.pdb
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\AdaniCall.Resources.pdb
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\AdaniCall.Utility.pdb
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\de\AdaniCall.Resources.resources.dll
+D:\project_AGCX\CallRecord\obj\Debug\net6.0\CallRecord.csproj.AssemblyReference.cache
+D:\project_AGCX\CallRecord\obj\Debug\net6.0\CallRecord.GeneratedMSBuildEditorConfig.editorconfig
+D:\project_AGCX\CallRecord\obj\Debug\net6.0\CallRecord.AssemblyInfoInputs.cache
+D:\project_AGCX\CallRecord\obj\Debug\net6.0\CallRecord.AssemblyInfo.cs
+D:\project_AGCX\CallRecord\obj\Debug\net6.0\CallRecord.csproj.CoreCompileInputs.cache
+D:\project_AGCX\CallRecord\obj\Debug\net6.0\CallRecord.MvcApplicationPartsAssemblyInfo.cs
+D:\project_AGCX\CallRecord\obj\Debug\net6.0\CallRecord.MvcApplicationPartsAssemblyInfo.cache
+D:\project_AGCX\CallRecord\obj\Debug\net6.0\CallRecord.RazorAssemblyInfo.cache
+D:\project_AGCX\CallRecord\obj\Debug\net6.0\CallRecord.RazorAssemblyInfo.cs
+D:\project_AGCX\CallRecord\obj\Debug\net6.0\staticwebassets\msbuild.CallRecord.Microsoft.AspNetCore.StaticWebAssets.props
+D:\project_AGCX\CallRecord\obj\Debug\net6.0\staticwebassets\msbuild.build.CallRecord.props
+D:\project_AGCX\CallRecord\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CallRecord.props
+D:\project_AGCX\CallRecord\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CallRecord.props
+D:\project_AGCX\CallRecord\obj\Debug\net6.0\staticwebassets.pack.json
+D:\project_AGCX\CallRecord\obj\Debug\net6.0\staticwebassets.build.json
+D:\project_AGCX\CallRecord\obj\Debug\net6.0\staticwebassets.development.json
+D:\project_AGCX\CallRecord\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\project_AGCX\CallRecord\obj\Debug\net6.0\scopedcss\bundle\CallRecord.styles.css
+D:\project_AGCX\CallRecord\obj\Debug\net6.0\scopedcss\projectbundle\CallRecord.bundle.scp.css
+D:\project_AGCX\CallRecord\obj\Debug\net6.0\CallRecord.csproj.CopyComplete
+D:\project_AGCX\CallRecord\obj\Debug\net6.0\CallRecord.dll
+D:\project_AGCX\CallRecord\obj\Debug\net6.0\refint\CallRecord.dll
+D:\project_AGCX\CallRecord\obj\Debug\net6.0\CallRecord.pdb
+D:\project_AGCX\CallRecord\obj\Debug\net6.0\CallRecord.genruntimeconfig.cache
+D:\project_AGCX\CallRecord\obj\Debug\net6.0\ref\CallRecord.dll
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\AllFiles\Video1\0-sin-d2-1cc8da288391a101e186e60593170a31.json
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\AllFiles\Video1\0-sin-d4-f87827806401415ab195889625d9afdc.json
+D:\project_AGCX\CallRecord\bin\Debug\net6.0\AllFiles\Video1\0-cin-d2-f7ebfdd5b42bce4917cdefb963a9e4eb.json
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\CallRecord.csproj.AssemblyReference.cache
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\CallRecord.GeneratedMSBuildEditorConfig.editorconfig
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\CallRecord.AssemblyInfoInputs.cache
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\CallRecord.AssemblyInfo.cs
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\CallRecord.csproj.CoreCompileInputs.cache
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\CallRecord.MvcApplicationPartsAssemblyInfo.cs
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\CallRecord.MvcApplicationPartsAssemblyInfo.cache
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\CallRecord.RazorAssemblyInfo.cache
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\CallRecord.RazorAssemblyInfo.cs
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\AllFiles\Video1\0-cin-d1-8f706b15e47c18c714c0f6f35e94d190.json
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\AllFiles\Video1\0-cin-d2-f7ebfdd5b42bce4917cdefb963a9e4eb.json
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\AllFiles\Video1\0-sin-d1-7aec61f7515b9273ffd35db680a61938.json
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\AllFiles\Video1\0-sin-d2-1cc8da288391a101e186e60593170a31.json
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\AllFiles\Video1\0-sin-d3-eb25fcbc0da06892541b842941abecd0.json
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\AllFiles\Video1\0-sin-d4-90a0071756673f8ed5587dff3ee53471.json
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\AllFiles\Video1\0-sin-d4-f87827806401415ab195889625d9afdc.json
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\appsettings.Development.json
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\appsettings.json
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\CallRecord.staticwebassets.runtime.json
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\CallRecord.exe
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\CallRecord.deps.json
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\CallRecord.runtimeconfig.json
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\CallRecord.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\CallRecord.pdb
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Azure.Communication.CallAutomation.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Azure.Communication.CallingServer.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Azure.Communication.Common.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Azure.Communication.Identity.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Azure.Core.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Azure.Messaging.EventGrid.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Azure.Storage.Blobs.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Azure.Storage.Common.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\EntityFramework.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\JetBrains.Annotations.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\NLipsum.Core.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Prototyping.Ipsum.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Prototyping.Placeholdit.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\System.Data.OleDb.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\System.IO.Hashing.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\System.Memory.Data.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\X.PagedList.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\X.PagedList.Mvc.Core.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Data.OleDb.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\AdaniCall.Business.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\AdaniCall.Entity.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\AdaniCall.Resources.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\AdaniCall.Utility.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\AdaniCall.Business.pdb
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\AdaniCall.Entity.pdb
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\AdaniCall.Resources.pdb
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\AdaniCall.Utility.pdb
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\de\AdaniCall.Resources.resources.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\staticwebassets\msbuild.CallRecord.Microsoft.AspNetCore.StaticWebAssets.props
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\staticwebassets\msbuild.build.CallRecord.props
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CallRecord.props
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CallRecord.props
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\staticwebassets.pack.json
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\staticwebassets.build.json
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\staticwebassets.development.json
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\scopedcss\bundle\CallRecord.styles.css
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\scopedcss\projectbundle\CallRecord.bundle.scp.css
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\CallRecord.csproj.CopyComplete
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\CallRecord.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\refint\CallRecord.dll
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\CallRecord.pdb
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\CallRecord.genruntimeconfig.cache
+D:\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\ref\CallRecord.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\appsettings.json
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\CallRecord.staticwebassets.runtime.json
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\CallRecord.exe
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\CallRecord.deps.json
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\CallRecord.runtimeconfig.json
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\CallRecord.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\CallRecord.pdb
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Azure.Communication.CallAutomation.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Azure.Communication.CallingServer.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Azure.Communication.Common.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Azure.Communication.Identity.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Azure.Core.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Azure.Messaging.EventGrid.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Azure.Storage.Blobs.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Azure.Storage.Common.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\EntityFramework.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\JetBrains.Annotations.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\NLipsum.Core.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Prototyping.Ipsum.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Prototyping.Placeholdit.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\System.Data.OleDb.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\System.IO.Hashing.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\System.Memory.Data.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\X.PagedList.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\X.PagedList.Mvc.Core.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Data.OleDb.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\AdaniCall.Business.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\AdaniCall.Entity.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\AdaniCall.Resources.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\AdaniCall.Utility.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\AdaniCall.Business.pdb
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\AdaniCall.Entity.pdb
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\AdaniCall.Resources.pdb
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\AdaniCall.Utility.pdb
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\bin\Debug\net6.0\de\AdaniCall.Resources.resources.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\CallRecord.csproj.AssemblyReference.cache
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\CallRecord.GeneratedMSBuildEditorConfig.editorconfig
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\CallRecord.AssemblyInfoInputs.cache
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\CallRecord.AssemblyInfo.cs
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\CallRecord.csproj.CoreCompileInputs.cache
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\CallRecord.MvcApplicationPartsAssemblyInfo.cs
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\CallRecord.MvcApplicationPartsAssemblyInfo.cache
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\CallRecord.RazorAssemblyInfo.cache
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\CallRecord.RazorAssemblyInfo.cs
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\staticwebassets\msbuild.CallRecord.Microsoft.AspNetCore.StaticWebAssets.props
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\staticwebassets\msbuild.build.CallRecord.props
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CallRecord.props
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CallRecord.props
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\staticwebassets.pack.json
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\staticwebassets.build.json
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\staticwebassets.development.json
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\scopedcss\bundle\CallRecord.styles.css
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\scopedcss\projectbundle\CallRecord.bundle.scp.css
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\CallRecord.csproj.CopyComplete
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\CallRecord.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\refint\CallRecord.dll
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\CallRecord.pdb
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\CallRecord.genruntimeconfig.cache
+D:\AdaniProject Series_Core\AdaniTeams_Core_12th_Jan_2023\CallRecord\obj\Debug\net6.0\ref\CallRecord.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\AllFiles\Video1\0-cin-d2-2f8b7ebeb01b9bc9e153082d7d3fd166.json
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\appsettings.json
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\CallRecord.staticwebassets.runtime.json
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\CallRecord.exe
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\CallRecord.deps.json
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\CallRecord.runtimeconfig.json
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\CallRecord.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\CallRecord.pdb
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\Azure.Communication.CallingServer.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\Azure.Communication.Common.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\Azure.Communication.Identity.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\Azure.Core.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\Azure.Messaging.EventGrid.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\Azure.Storage.Blobs.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\Azure.Storage.Common.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\JetBrains.Annotations.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\Microsoft.Azure.KeyVault.Core.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\Microsoft.Azure.Storage.Blob.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\Microsoft.Azure.Storage.Common.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\Microsoft.Azure.WebJobs.Host.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\Microsoft.Azure.WebJobs.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\Microsoft.Azure.WebJobs.Extensions.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\Microsoft.Azure.WebJobs.Host.Storage.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\NCrontab.Signed.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\System.Data.OleDb.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\System.IO.Hashing.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\System.Memory.Data.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\X.PagedList.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\X.PagedList.Mvc.Core.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Data.OleDb.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\AdaniCall.Business.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\AdaniCall.Entity.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\AdaniCall.Resources.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\AdaniCall.Utility.dll
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\AdaniCall.Business.pdb
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\AdaniCall.Entity.pdb
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\AdaniCall.Resources.pdb
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\AdaniCall.Utility.pdb
+D:\AdaniTeams\CallRecord\bin\Debug\net6.0\de\AdaniCall.Resources.resources.dll
+D:\AdaniTeams\CallRecord\obj\Debug\net6.0\CallRecord.csproj.AssemblyReference.cache
+D:\AdaniTeams\CallRecord\obj\Debug\net6.0\CallRecord.GeneratedMSBuildEditorConfig.editorconfig
+D:\AdaniTeams\CallRecord\obj\Debug\net6.0\CallRecord.AssemblyInfoInputs.cache
+D:\AdaniTeams\CallRecord\obj\Debug\net6.0\CallRecord.AssemblyInfo.cs
+D:\AdaniTeams\CallRecord\obj\Debug\net6.0\CallRecord.csproj.CoreCompileInputs.cache
+D:\AdaniTeams\CallRecord\obj\Debug\net6.0\CallRecord.MvcApplicationPartsAssemblyInfo.cs
+D:\AdaniTeams\CallRecord\obj\Debug\net6.0\CallRecord.MvcApplicationPartsAssemblyInfo.cache
+D:\AdaniTeams\CallRecord\obj\Debug\net6.0\CallRecord.RazorAssemblyInfo.cache
+D:\AdaniTeams\CallRecord\obj\Debug\net6.0\CallRecord.RazorAssemblyInfo.cs
+D:\AdaniTeams\CallRecord\obj\Debug\net6.0\staticwebassets\msbuild.CallRecord.Microsoft.AspNetCore.StaticWebAssets.props
+D:\AdaniTeams\CallRecord\obj\Debug\net6.0\staticwebassets\msbuild.build.CallRecord.props
+D:\AdaniTeams\CallRecord\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CallRecord.props
+D:\AdaniTeams\CallRecord\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CallRecord.props
+D:\AdaniTeams\CallRecord\obj\Debug\net6.0\staticwebassets.pack.json
+D:\AdaniTeams\CallRecord\obj\Debug\net6.0\staticwebassets.build.json
+D:\AdaniTeams\CallRecord\obj\Debug\net6.0\staticwebassets.development.json
+D:\AdaniTeams\CallRecord\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\AdaniTeams\CallRecord\obj\Debug\net6.0\scopedcss\bundle\CallRecord.styles.css
+D:\AdaniTeams\CallRecord\obj\Debug\net6.0\scopedcss\projectbundle\CallRecord.bundle.scp.css
+D:\AdaniTeams\CallRecord\obj\Debug\net6.0\CallRecord.csproj.CopyComplete
+D:\AdaniTeams\CallRecord\obj\Debug\net6.0\CallRecord.dll
+D:\AdaniTeams\CallRecord\obj\Debug\net6.0\refint\CallRecord.dll
+D:\AdaniTeams\CallRecord\obj\Debug\net6.0\CallRecord.pdb
+D:\AdaniTeams\CallRecord\obj\Debug\net6.0\CallRecord.genruntimeconfig.cache
+D:\AdaniTeams\CallRecord\obj\Debug\net6.0\ref\CallRecord.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\AllFiles\Video1\0-cin-d2-2f8b7ebeb01b9bc9e153082d7d3fd166.json
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\appsettings.json
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\CallRecord.staticwebassets.runtime.json
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\CallRecord.exe
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\CallRecord.deps.json
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\CallRecord.runtimeconfig.json
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\CallRecord.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\CallRecord.pdb
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\Azure.Communication.CallingServer.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\Azure.Communication.Common.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\Azure.Communication.Identity.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\Azure.Core.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\Azure.Messaging.EventGrid.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\Azure.Storage.Blobs.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\Azure.Storage.Common.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\JetBrains.Annotations.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\Microsoft.Azure.KeyVault.Core.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\Microsoft.Azure.Storage.Blob.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\Microsoft.Azure.Storage.Common.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\Microsoft.Azure.WebJobs.Host.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\Microsoft.Azure.WebJobs.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\Microsoft.Azure.WebJobs.Extensions.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\Microsoft.Azure.WebJobs.Host.Storage.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\NCrontab.Signed.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\System.Data.OleDb.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\System.IO.Hashing.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\System.Memory.Data.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\X.PagedList.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\X.PagedList.Mvc.Core.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Data.OleDb.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\AdaniCall.Business.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\AdaniCall.Entity.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\AdaniCall.Resources.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\AdaniCall.Utility.dll
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\AdaniCall.Business.pdb
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\AdaniCall.Entity.pdb
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\AdaniCall.Resources.pdb
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\AdaniCall.Utility.pdb
+D:\AdaniCore\AdaniTeams\CallRecord\bin\Debug\net6.0\de\AdaniCall.Resources.resources.dll
+D:\AdaniCore\AdaniTeams\CallRecord\obj\Debug\net6.0\CallRecord.csproj.AssemblyReference.cache
+D:\AdaniCore\AdaniTeams\CallRecord\obj\Debug\net6.0\CallRecord.GeneratedMSBuildEditorConfig.editorconfig
+D:\AdaniCore\AdaniTeams\CallRecord\obj\Debug\net6.0\CallRecord.AssemblyInfoInputs.cache
+D:\AdaniCore\AdaniTeams\CallRecord\obj\Debug\net6.0\CallRecord.AssemblyInfo.cs
+D:\AdaniCore\AdaniTeams\CallRecord\obj\Debug\net6.0\CallRecord.csproj.CoreCompileInputs.cache
+D:\AdaniCore\AdaniTeams\CallRecord\obj\Debug\net6.0\CallRecord.MvcApplicationPartsAssemblyInfo.cs
+D:\AdaniCore\AdaniTeams\CallRecord\obj\Debug\net6.0\CallRecord.MvcApplicationPartsAssemblyInfo.cache
+D:\AdaniCore\AdaniTeams\CallRecord\obj\Debug\net6.0\CallRecord.RazorAssemblyInfo.cache
+D:\AdaniCore\AdaniTeams\CallRecord\obj\Debug\net6.0\CallRecord.RazorAssemblyInfo.cs
+D:\AdaniCore\AdaniTeams\CallRecord\obj\Debug\net6.0\staticwebassets\msbuild.CallRecord.Microsoft.AspNetCore.StaticWebAssets.props
+D:\AdaniCore\AdaniTeams\CallRecord\obj\Debug\net6.0\staticwebassets\msbuild.build.CallRecord.props
+D:\AdaniCore\AdaniTeams\CallRecord\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CallRecord.props
+D:\AdaniCore\AdaniTeams\CallRecord\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CallRecord.props
+D:\AdaniCore\AdaniTeams\CallRecord\obj\Debug\net6.0\staticwebassets.pack.json
+D:\AdaniCore\AdaniTeams\CallRecord\obj\Debug\net6.0\staticwebassets.build.json
+D:\AdaniCore\AdaniTeams\CallRecord\obj\Debug\net6.0\staticwebassets.development.json
+D:\AdaniCore\AdaniTeams\CallRecord\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\AdaniCore\AdaniTeams\CallRecord\obj\Debug\net6.0\scopedcss\bundle\CallRecord.styles.css
+D:\AdaniCore\AdaniTeams\CallRecord\obj\Debug\net6.0\scopedcss\projectbundle\CallRecord.bundle.scp.css
+D:\AdaniCore\AdaniTeams\CallRecord\obj\Debug\net6.0\CallRecord.csproj.CopyComplete
+D:\AdaniCore\AdaniTeams\CallRecord\obj\Debug\net6.0\CallRecord.dll
+D:\AdaniCore\AdaniTeams\CallRecord\obj\Debug\net6.0\refint\CallRecord.dll
+D:\AdaniCore\AdaniTeams\CallRecord\obj\Debug\net6.0\CallRecord.pdb
+D:\AdaniCore\AdaniTeams\CallRecord\obj\Debug\net6.0\CallRecord.genruntimeconfig.cache
+D:\AdaniCore\AdaniTeams\CallRecord\obj\Debug\net6.0\ref\CallRecord.dll

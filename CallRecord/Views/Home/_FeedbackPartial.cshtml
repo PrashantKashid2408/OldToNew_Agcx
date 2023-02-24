@@ -1,0 +1,126 @@
+﻿<div class="sec-feedback-inner">
+    <div class="mtop20">
+        <form action="" method="post" id="frmfeedback">
+            <div class="feedback-screen1">
+                <h1 class="title">Please rate your kiosk experience!</h1>
+                <div class="feedback-screen1-listHolder">
+                    <input type="hidden" id="feedbackVal" name="feedbackVal" />
+                    <ul class="feedback-btnList">
+                        <li>
+                            <label class="feedback-btn" id="feedbackExcellent" onclick="getFeedback(event, 'f1', 'Excellent')">
+                                <input type="radio" id="feedbackExcellent" name="feedbackRate" value="Excellent" rvalue="5" class="form-control" />
+                                <img src="~/images/smiley-excellent.svg" alt="" />
+                                <span class="btntxt bg1">
+                                    <span class="leftbg"></span> <span class="txt">Excellent</span>
+                                </span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="feedback-btn" id="feedbackGood" onclick="getFeedback(event, 'f2', 'Good')">
+                                <input type="radio" id="feedbackGood" name="feedbackRate" value="Good" rvalue="4" class="form-control" />
+                                <img src="~/images/smiley-good.svg" alt="" />
+                                <span class="btntxt bg2">
+                                    <span class="leftbg"></span> <span class="txt">Good</span>
+                                </span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="feedback-btn" id="feedbackModerate" onclick="getFeedback(event, 'f3', 'Moderate')">
+                                <input type="radio" id="feedbackModerate" name="feedbackRate" value="Moderate" rvalue="3" class="form-control" />
+                                <img src="~/images/smiley-moderate.svg" alt="" />
+                                <span class="btntxt bg3">
+                                    <span class="leftbg"></span> <span class="txt">Moderate</span>
+                                </span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="feedback-btn" id="feedbackPoor" onclick="getFeedback(event, 'f4', 'Poor')">
+                                <input type="radio" id="feedbackPoor" name="feedbackRate" value="Poor" rvalue="2" class="form-control" />
+                                <img src="~/images/smiley-poor.svg" alt="" />
+                                <span class="btntxt bg4">
+                                    <span class="leftbg"></span> <span class="txt">Poor</span>
+                                </span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="feedback-btn" id="feedbackVeryBad" onclick="getFeedback(event, 'f5', 'VeryBad')">
+                                <input type="radio" id="feedbackVeryBad" name="feedbackRate" value="Very Bad" rvalue="1" class="form-control" />
+                                <img src="~/images/smiley-verybad.svg" alt="" />
+                                <span class="btntxt bg5">
+                                    <span class="leftbg"></span> <span class="txt">Very Bad</span>
+                                </span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="feedback-screen2 box" id="divLoader" style="display: none;">
+                <div class="titleHolder">
+                    <h1 class="title">We would like to understand your feedback better so that we can improve your experience</h1>
+                    <h6 class="subtext">Enter your phone number (Optional)</h6>
+                    <div style="position: relative; width: 560px; margin: auto;">
+                        <input type="text" placeholder="_" class="mobInput" id="mobileNum"  name="mobileNum" maxlength="20"   />
+                        <span onclick="removeMobileNum()" id="removeMobNum" style="position: absolute; right: 0px; display: inline-block; top: 43px; cursor: pointer; display: none;"><img src="~/images/btn-backspace.png" alt="" style="opacity: 0.5;"></span>
+                    </div>
+                </div>
+                <div class="feedback-screen2-listHolder">
+                    @*<input type="hidden" id="feedbackMobile" />*@
+                    <ul class="feedback-numberList">
+                        <li>
+                            <label id="num_1" onclick="getFeedbackMob(event, 'n1', '1')">1</label>
+                        </li>
+                        <li>
+                            <label id="num_2" onclick="getFeedbackMob(event, 'n2', '2')">2</label>
+                        </li>
+                        <li>
+                            <label id="num_3" onclick="getFeedbackMob(event, 'n3', '3')">3</label>
+                        </li>
+                        <li>
+                            <label id="num_4" onclick="getFeedbackMob(event, 'n4', '4')">4</label>
+                        </li>
+                        <li>
+                            <label id="num_5" onclick="getFeedbackMob(event, 'n5', '5')">5</label>
+                        </li>
+                        <li>
+                            <label id="num_6" onclick="getFeedbackMob(event, 'n6', '6')">6</label>
+                        </li>
+                        <li>
+                            <label id="num_7" onclick="getFeedbackMob(event, 'n7', '7')">7</label>
+                        </li>
+                        <li>
+                            <label id="num_8" onclick="getFeedbackMob(event, 'n8', '8')">8</label>
+                        </li>
+                        <li>
+                            <label id="num_9" onclick="getFeedbackMob(event, 'n9', '9')">9</label>
+                        </li>
+                        <li>
+                            <label id="num_star" onclick="getFeedbackMob(event, 'n9', '*')"><span class="star">*</span></label>
+                        </li>
+                        <li>
+                            <label id="num_0" onclick="getFeedbackMob(event, 'n9', '0')">0</label>
+                        </li>
+                        <li>
+                            <label id="num_hash" onclick="getFeedbackMob(event, 'n9', '#')">#</label>
+                        </li>
+                    </ul>
+                    <div class="clearfix">&nbsp;</div>
+                    <div class="btnHolder">
+                        <input onclick="skipFeedback();" type="button" class="btn-skip" value="SKIP">
+                        <input onclick="saveFeedback();" type="button" class="btn-submit" value="SUBMIT">
+                    </div>
+                    <div class="clearfix">&nbsp;</div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="feedback-screen3" style="display: none;">
+                <div class="titleHolder">
+                    <h1 class="title">THANK YOU!</h1>
+                    <h6 class="subtext">Your feedback is being recorded</h6>
+                </div>
+            </div>
+        </form>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+</div>

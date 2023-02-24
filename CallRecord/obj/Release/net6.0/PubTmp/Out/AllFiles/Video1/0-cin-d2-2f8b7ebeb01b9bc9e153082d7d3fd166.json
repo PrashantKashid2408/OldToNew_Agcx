@@ -1,0 +1,33 @@
+{
+  "resourceId": "34742d4f-3d52-49ac-a408-01eb5314cc4e",
+  "callId": "0ad65988-53b7-432c-bfd2-5f0c3e287671",
+  "chunkDocumentId": "0-cin-d2-2f8b7ebeb01b9bc9e153082d7d3fd166",
+  "chunkIndex": 0,
+  "chunkStartTime": "2023-01-16T11:31:46.4990845Z",
+  "chunkDuration": 46720.0,
+  "pauseResumeIntervals": [],
+  "recordingInfo": {
+    "contentType": "audioVideo",
+    "channelType": "mixed",
+    "format": "mp4",
+    "audioConfiguration": {
+      "sampleRate": 16000,
+      "bitRate": 128000,
+      "channels": 1
+    },
+    "videoConfiguration": {
+      "longerSideLength": 1920,
+      "shorterSideLength": 1080,
+      "framerate": 16,
+      "bitRate": 1000000
+    }
+  },
+  "participants": [
+    {
+      "participantId": "8:acs:34742d4f-3d52-49ac-a408-01eb5314cc4e_00000015-fdd3-3956-aa60-c93a0d002199"
+    },
+    {
+      "participantId": "8:acs:34742d4f-3d52-49ac-a408-01eb5314cc4e_00000015-fdd5-72c2-1160-c93a0d003eb1"
+    }
+  ]
+}
